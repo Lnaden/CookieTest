@@ -11,6 +11,7 @@ if [ "$TRAVIS_OS_NAME" == "osx" ]; then
         command md5 -r "$@"
     }
     MINICONDA=Miniconda3-latest-MacOSX-x86_64.sh
+    brew --version
 else
     MINICONDA=Miniconda3-latest-Linux-x86_64.sh
 fi
